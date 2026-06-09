@@ -1,3 +1,3 @@
-Highest:90
-Lowest:45
-Average70
+Ram - 85
+Shyam - 72
+Geeta - 91

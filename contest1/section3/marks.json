@@ -1,5 +1,5 @@
 [
-  { "name": "Ram", "marks": 75 },
-  { "name": "Shyam", "marks": 45 },
-  { "name": "Geeta", "marks": 90 }
+  { "id": 1, "marks": 85 },
+  { "id": 2, "marks": 72 },
+  { "id": 3, "marks": 91 }
 ]

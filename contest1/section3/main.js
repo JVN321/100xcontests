@@ -102,13 +102,13 @@ fs.readFile("students.json", "utf-8", function (e, data) {
     marks = JSON.parse(data);
     let str = "";
     for (let i = 0; i < students.length; i++) {
-      for (let j = 0; i < marks.length; j++) {
-        if (students[i].id == marks[i].id) {
-          str += students[i].name + " - " + marks[i].marks + "\n";
+      for (let j = 0; j < marks.length; j++) {
+        if (students[i].id === marks[j].id) {
+          str += students[i].name + " - " + marks[j].marks + "\n";
         }
       }
     }
     console.log(str);
-    fs.writeFile("report.txt", str);
+    fs.writeFile("report.txt", str, function (e, data) {});
   });
 });
